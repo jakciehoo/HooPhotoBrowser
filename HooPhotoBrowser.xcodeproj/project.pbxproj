@@ -39,6 +39,7 @@
 		22667C641C79849E004DE161 /* HooPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22667C631C79849E004DE161 /* HooPhotoBrowser.m */; };
 		22667C661C799500004DE161 /* uc_header_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22667C651C799500004DE161 /* uc_header_background.jpg */; };
 		22667C681C79E936004DE161 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22667C671C79E936004DE161 /* Resource.bundle */; };
+		22667C6C1C79F7DB004DE161 /* HooPhotoBrowserDemoShow.mov in Resources */ = {isa = PBXBuildFile; fileRef = 22667C6B1C79F7DB004DE161 /* HooPhotoBrowserDemoShow.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		22667C631C79849E004DE161 /* HooPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooPhotoBrowser.m; sourceTree = "<group>"; };
 		22667C651C799500004DE161 /* uc_header_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uc_header_background.jpg; sourceTree = "<group>"; };
 		22667C671C79E936004DE161 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		22667C6B1C79F7DB004DE161 /* HooPhotoBrowserDemoShow.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = HooPhotoBrowserDemoShow.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 		22667BBB1C796A41004DE161 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22667C6B1C79F7DB004DE161 /* HooPhotoBrowserDemoShow.mov */,
 				22667BBC1C796A41004DE161 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -382,6 +385,7 @@
 				22667C661C799500004DE161 /* uc_header_background.jpg in Resources */,
 				22667BC61C796A41004DE161 /* Main.storyboard in Resources */,
 				22667C681C79E936004DE161 /* Resource.bundle in Resources */,
+				22667C6C1C79F7DB004DE161 /* HooPhotoBrowserDemoShow.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
