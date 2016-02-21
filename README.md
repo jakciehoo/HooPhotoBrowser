@@ -10,4 +10,4 @@ SDWebImage:
 2.参考调用实例
 
 效果图：
-![picture](https://github.com/jakciehoo/HooPhotoBrowser/blob/master/HooFlowerButton/FlowerButton.gif)
+![picture](https://github.com/jakciehoo/HooPhotoBrowser/blob/master/HooPhotoBrowser/HooPhotoBrowserDemoShow.gif)
