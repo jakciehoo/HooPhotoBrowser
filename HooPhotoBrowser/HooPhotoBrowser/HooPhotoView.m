@@ -94,12 +94,13 @@
         __weak HooPhotoView *photoView = self;
         __weak HooPhotoLoadingView *loadingView = _photoLoadingView;
         
-        [_imageView sd_setImageWithURL:_photo.url placeholderImage:_photo.sourceImageView.image options:SDWebImageRetryFailed|SDWebImageLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+        [_imageView sd_setImageWithURL:_photo.url placeholderImage:_photo.sourceImageView.image options:SDWebImageRetryFailed|SDWebImageLowPriority progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
             if (receivedSize > kMinProgress) {
                 loadingView.progress = (float)receivedSize/expectedSize;
             }
-        } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
             [photoView photoDidFinishLoadWithImage:image];
+
         }];
         
     }

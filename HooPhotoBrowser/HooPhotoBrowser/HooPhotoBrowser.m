@@ -194,14 +194,15 @@
 - (void)loadImageNearIndex:(int)index {
     if (index > 0) {
         HooPhoto *photo = _photos[index - 1];
-        [[SDWebImageManager sharedManager] downloadImageWithURL:photo.url options:SDWebImageRetryFailed | SDWebImageLowPriority progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+        
+        [[SDWebImageManager sharedManager] loadImageWithURL:photo.url options:SDWebImageRetryFailed | SDWebImageLowPriority progress:nil completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, SDImageCacheType cacheType, BOOL finished, NSURL * _Nullable imageURL) {
             
         }];
     }
     
     if (index < _photos.count - 1) {
         HooPhoto *photo = _photos[index + 1];
-        [[SDWebImageManager sharedManager] downloadImageWithURL:photo.url options:SDWebImageRetryFailed | SDWebImageLowPriority progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+        [[SDWebImageManager sharedManager] loadImageWithURL:photo.url options:SDWebImageRetryFailed | SDWebImageLowPriority progress:nil completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, SDImageCacheType cacheType, BOOL finished, NSURL * _Nullable imageURL) {
             
         }];
     }
