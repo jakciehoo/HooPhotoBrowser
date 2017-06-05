@@ -370,6 +370,7 @@
 				TargetAttributes = {
 					22667BB71C796A41004DE161 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 36KSHTR5AW;
 					};
 					22667BD01C796A41004DE161 = {
 						CreatedOnToolsVersion = 7.2;
@@ -603,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36KSHTR5AW;
 				INFOPLIST_FILE = HooPhotoBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -615,6 +617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36KSHTR5AW;
 				INFOPLIST_FILE = HooPhotoBrowser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

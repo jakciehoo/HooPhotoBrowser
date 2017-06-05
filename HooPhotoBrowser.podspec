@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HooPhotoBrowser"
-  s.version      = "1.1"
+  s.version      = "1.3"
   s.summary      = "HooPhotoBrowser is an ios Photo Browser kit on iOS operating system."
 
   # This description is used to generate tags and improve search results.
