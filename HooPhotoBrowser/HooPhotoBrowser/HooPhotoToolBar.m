@@ -21,7 +21,7 @@
 {
     _currentPhotoIndex = currentPhotoIndex;
     
-    _indexLabel.text = [NSString stringWithFormat:@"%lu / %lu", _currentPhotoIndex + 1, (unsigned long)_photos.count];
+    _indexLabel.text = [NSString stringWithFormat:@"%lu / %lu", _currentPhotoIndex + 1, _photos.count];
     if (_photos.count) {
         
         HooPhoto *photo = _photos[_currentPhotoIndex];
